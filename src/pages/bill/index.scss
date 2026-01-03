@@ -1,0 +1,39 @@
+.bill {
+  height: 90vh;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.bill__scroll {
+  flex: 1;
+  min-height: 0;
+  margin: 30rpx 0rpx;
+}
+
+.bill__empty {
+  padding: 24px 0;
+  
+}
+
+.bill__footer {
+  padding: 12px 0 24px;
+  text-align: center;
+  color: #969799;
+  font-size: 20rpx;
+}
+
+.bill__toggle {
+  color: #1989fa;
+  font-size: 25rpx;
+}
+
+.bill__expense {
+  color: #ee0a24;
+  font-weight: 600;
+}
+
+.bill__income {
+  color: #07c160;
+  font-weight: 600;
+}
